@@ -1,0 +1,22 @@
+{
+  "name": "lab-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vrezh-Arakelian/lab-practice.git"
+  },
+  "author": "Vrezh Arakelian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vrezh-Arakelian/lab-practice/issues"
+  },
+  "homepage": "https://github.com/Vrezh-Arakelian/lab-practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
