@@ -6,3 +6,10 @@ test(
        expect(palindrome("топот")).toBe(true);
     }
 );
+
+test(
+    "is not palindrome", 
+    () => {
+       expect(palindrome("троторn")).toBe(false);
+    }
+);
