@@ -13,3 +13,10 @@ test(
        expect(palindrome("троторn")).toBe(false);
     }
 );
+test(
+    "is string", 
+    () => {
+       expect(palindrome(null)).toBe(str);
+       
+    }
+);

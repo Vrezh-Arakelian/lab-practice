@@ -5,9 +5,23 @@ function palindrome(str){
       if (str[i] !== str[str.length - i -1]){
         return false ;
       }
-    return true; 
+    return true;
+   
+    
 }
-console.log(palindrome("топот"));
-console.log(palindrome("троторп"));
+/*const st = palindrome(str)
+  if (st != str)
+      throw new Error('param is not a string');
 
+   
+*/
+
+try {
+
+  console.log(palindrome(null));
+
+}
+catch (error){
+  console.log('param is not a string');
+}
 module.exports = palindrome;
