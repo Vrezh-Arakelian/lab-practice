@@ -1,4 +1,6 @@
 function palindrome(str){
+      if (typeof str !== "string")
+      throw new Error('param is not a string blablabla');
     str = str.toLowerCase();
     const len = Math.floor(str.length/2);
     for (let i = 0 ; i < len ; i++)
@@ -9,19 +11,6 @@ function palindrome(str){
    
     
 }
-/*const st = palindrome(str)
-  if (st != str)
-      throw new Error('param is not a string');
+console.log(palindrome(7));
 
-   
-*/
-
-try {
-
-  console.log(palindrome(null));
-
-}
-catch (error){
-  console.log('param is not a string');
-}
 module.exports = palindrome;
